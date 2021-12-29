@@ -1,0 +1,25 @@
+[{
+        "id": 1,
+        "accNo": "002",
+        "accName": "Saving Account",
+        "accType": "Saving",
+        "balance": 1132,
+        "currency": "AUD"
+      },
+      {
+        "id": 2,
+        "accNo": "003",
+        "accName": "Bonus Saving Account",
+        "accType": "Saving",
+        "balance": 432,
+        "currency": "GBP"
+      },
+      {
+        "id": 3,
+        "accNo": "001",
+        "accName": "Current Account",
+        "accType": "Current",
+        "balance": 1232,
+        "currency": "AUD"
+      }
+    ]

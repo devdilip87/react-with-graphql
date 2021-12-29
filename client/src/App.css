@@ -1,0 +1,109 @@
+.center-align {
+  text-align: center;
+}
+
+.header {
+  padding-left: 10px;
+  margin: auto;
+  background: #5a65b9;
+  height: 35px;
+  color: white;
+  line-height: 30px;
+}
+
+.bredcrumb {
+  padding-left: 10px;
+  margin: auto;
+}
+
+.bredcrumb_link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container {
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.container form {
+  margin-top: 30px;
+}
+
+.container .input {
+  display: block;
+  line-height: 20px;
+  padding: 10px;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid;
+  margin-top: 30px;
+  min-width: 20%;
+}
+
+.btn {
+  border-radius: 20px;
+  background: lightgray;
+}
+
+.btn-login {
+  margin-top: 40px !important;
+  min-width: 22% !important;
+  border-radius: 20px;
+  background: lightgray;
+  border: none !important;
+}
+
+.container table {
+  margin: auto;
+  background: #f7f7f7;
+}
+
+.container table tr {
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.container table tbody tr {
+  cursor: pointer;
+}
+
+.container table tbody tr:hover {
+  background: #e1e4ea;
+}
+
+.container table thead tr {
+  background: #e1e4ea;
+  border: none;
+}
+
+.container table thead td {
+  background: #e1e4ea;
+  cursor: pointer;
+}
+
+.container table thead td:hover {
+  color: #f7f7f7;
+  background-color: #5a65b9;
+}
+
+.container table tr td{
+  padding-left: 10px;
+  text-align: left;
+  word-break: break-word;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop browser: */
+  [class*="row"] {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="row"] {
+    width: 100%;
+  }
+}
